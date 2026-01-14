@@ -22,9 +22,7 @@ body {
   overflow-x: hidden;
 }
 
-/* ====================================
-   2. Top Bar
-   ==================================== */
+
 .top-bar {
   background: #000;
   border-bottom: 1px solid #000;
@@ -69,9 +67,6 @@ body {
   font-weight: 500;
 }
 
-/* ====================================
-   3. Site Header
-   ==================================== */
 .site-header {
   background: var(--color-white);
   padding: 16px 20px;
@@ -163,9 +158,6 @@ body {
   font-family: var(--font-primary);
 }
 
-/* ====================================
-   4. Homepage Hero Section
-   ==================================== */
 .hero-section {
   font-family: inherit;
   position: relative;
@@ -263,8 +255,6 @@ body {
   font-weight: 500;
   font-size: 18px;
 }
-
-/* Hero Responsive */
 @media (max-width: 1100px) {
   .hero-grid {
     grid-template-columns: 1fr 1fr;
@@ -295,9 +285,7 @@ body {
   }
 }
 
-/* ====================================
-   5. Feature Bar
-   ==================================== */
+
 .feature-bar {
   position: relative;
   height: 79px;
@@ -348,9 +336,7 @@ body {
   }
 }
 
-/* ====================================
-   6. Home Links (Our Story / Recipes)
-   ==================================== */
+
 .home-links {
   display: flex;
   gap: 40px;
@@ -401,9 +387,7 @@ body {
   }
 }
 
-/* ====================================
-   7. Best Sellers Section
-   ==================================== */
+
 .best-sellers {
   padding: 40px 20px;
   background: var(--color-bg-light);
@@ -434,7 +418,6 @@ body {
   gap: 24px;
 }
 
-/* Product Card (Shared) */
 .prod-card {
   background: var(--color-white);
   border: 1px solid #eee;
@@ -515,9 +498,7 @@ body {
   }
 }
 
-/* ====================================
-   8. Promo Section
-   ==================================== */
+
 .promo {
   padding: 0;
   margin: 40px 0;
@@ -577,9 +558,7 @@ body {
   }
 }
 
-/* ====================================
-   9. Press Section
-   ==================================== */
+
 .press {
   padding: 40px 20px;
   background: var(--color-white);
@@ -596,9 +575,6 @@ body {
   height: auto;
 }
 
-/* ====================================
-   10. Newsletter Section
-   ==================================== */
 .newsletter {
   background: var(--color-primary);
   color: var(--color-white);
@@ -685,9 +661,6 @@ body {
   }
 }
 
-/* ====================================
-   11. Site Footer
-   ==================================== */
 .site-footer {
   background: var(--color-bg-footer);
   padding: 0;
@@ -796,9 +769,6 @@ body {
   }
 }
 
-/* ====================================
-   12. Utility Classes
-   ==================================== */
 .container {
   display: flex;
   padding: 20px;
@@ -882,9 +852,6 @@ body {
   }
 }
 
-/* ====================================
-   13. Order Confirmation Page
-   ==================================== */
 .order-page {
   min-height: 400px;
   display: flex;
@@ -925,9 +892,6 @@ body {
   margin: 0 0 32px;
 }
 
-/* ====================================
-   14. Products Page
-   ==================================== */
 .products-hero {
   background: url('../img/promo.jpg') center/cover no-repeat;
   height: 180px;
@@ -1053,7 +1017,6 @@ body {
   margin-left: 8px;
 }
 
-/* Filter Panel */
 .filter-panel {
   display: none;
   padding: 24px;
@@ -1196,9 +1159,6 @@ body {
   }
 }
 
-/* ====================================
-   15. Product Detail Page
-   ==================================== */
 .product-detail-page {
   max-width: 1200px;
   margin: 0 auto;
@@ -1288,7 +1248,6 @@ body {
   opacity: 1;
 }
 
-/* Product Info */
 .product-info {
   flex: 1;
   text-align: center;
@@ -1349,7 +1308,6 @@ body {
   text-align: center;
 }
 
-/* Product Actions */
 .product-actions {
   display: flex;
   gap: 12px;
@@ -1403,7 +1361,6 @@ body {
   color: var(--color-primary);
 }
 
-/* Share Section */
 .share-section {
   display: flex;
   align-items: center;
